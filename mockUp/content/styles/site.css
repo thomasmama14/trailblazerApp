@@ -1,0 +1,122 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; 
+color:#333962; - Blue
+color:#C98B51; - Gold
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Top Nav */
+.r-nav{
+    background: #333962;
+    padding: 12px 0;
+}
+
+nav .navbar-nav li a{
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav .navbar-nav li {
+    margin-left: 15px;
+}
+
+/* Main Body Elements */
+
+.mainBody {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/texturebg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.logoimg {
+    width: 1050px;
+    height: 670px; 
+    object-fit: cover;
+    object-position: 20px 40px;
+}
+
+h1 {
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #333962; 
+    margin: 10px 0;
+    font-weight: 200;
+    letter-spacing: 10px;
+    margin-right: -16px;
+}
+
+.btn {
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    background-color: #C98B51;
+    padding: 10px 24px;
+    border-radius: 12px;
+    margin: 20px;
+    border: 2px solid #333962;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn:hover {
+    background-color: #333962;
+    border: 2px solid #C98B51;
+    color: white;
+    box-shadow: none;
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+
+/* Footer */
+
+.main-footer {
+    background:#333962;
+    color: #FFF;
+    padding: 12px 0;
+}
+
+.copy {
+    float: left;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li{
+    float: left;
+}
+
+.footer-nav li + li {
+    margin-left: 20px;
+}
+
+.main-footer a {
+    color: white;
+    font-size: 12px;
+}
